@@ -1,5 +1,5 @@
 # basys-3-display
-For use on Xilinx Artix 7 Basys 3 FPGA Development Boards
+For use on Xilinx Artix 7 Basys 3 FPGA Development Boards.
 
 ## Hierarchy
 ```
