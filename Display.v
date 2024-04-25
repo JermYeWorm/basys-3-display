@@ -31,10 +31,10 @@ module Display(
     // 4x1 MUX to send correct dig to hex decoder
     always @(s)
         case (s)
-            2'b00 : x <= dig1;
-            2'b01 : x <= dig2;
-            2'b10 : x <= dig3;
-            2'b11 : x <= dig4;
+            2'b00 : x <= dig4; // Rightmost display
+            2'b01 : x <= dig3;
+            2'b10 : x <= dig2;
+            2'b11 : x <= dig1; // Leftmost display
         endcase
         
 endmodule
