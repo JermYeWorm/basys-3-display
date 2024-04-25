@@ -1,4 +1,4 @@
-# basys-3-display
+# Basys 3 Display Module
 For use on Xilinx Artix 7 Basys 3 FPGA Development Boards.
 
 ## Hierarchy
